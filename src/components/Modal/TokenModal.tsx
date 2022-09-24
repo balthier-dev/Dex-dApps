@@ -20,6 +20,7 @@ type Props = {
 export default function TokenModal({isOpen, onClose}: Props) {
   const [search, setSearch] = useState<any>("");
   const [crypto, setCrypto] = useState<any[]>([]);
+  // eslint-disable-next-line
   const [selected, setSelected] = useState<any>("");
   useEffect(() => {
     Axios.get(
