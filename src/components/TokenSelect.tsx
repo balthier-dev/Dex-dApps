@@ -1,6 +1,5 @@
-import {Button, Box, Image, useDisclosure} from "@chakra-ui/react";
+import {Button, Image} from "@chakra-ui/react";
 import {ChevronDownIcon} from "@chakra-ui/icons";
-import etherLogo from "../assets/etherLogo.png";
 type Props = {
   openTokenModal: any;
   value: any;

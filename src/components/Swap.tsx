@@ -1,13 +1,11 @@
 import {
   Flex,
   Box,
-  Image,
   Text,
-  Button,
   Input, useDisclosure
 } from "@chakra-ui/react";
 
-import { SettingsIcon, ChevronDownIcon, ArrowDownIcon } from '@chakra-ui/icons';
+import { SettingsIcon, ArrowDownIcon } from '@chakra-ui/icons';
 import SwapButton from './SwapButton';
 import TokenSelect from './TokenSelect';
 import TokenModal from "./Modal/TokenModal";
