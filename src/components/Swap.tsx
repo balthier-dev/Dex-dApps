@@ -128,7 +128,7 @@ export default function Trade() {
             />
           </Box>
         </Flex>
-        <Box color="black">
+        <Box color="black" display='flex' alignItems='center' justifyContent='center' marginTop='10px' marginBottom='10px'>
           <div>1 {window.__selected2} = {window.__price2/window.__price1} {window.__selected}</div>
         </Box>
         <SwapButton/>
