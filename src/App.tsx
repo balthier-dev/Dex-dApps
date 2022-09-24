@@ -18,7 +18,7 @@ function App() {
         <AccountModal isOpen={isOpen} onClose={onClose} />
       </Header>
       <Swap />
-      <Test/>
+      {/* <Test/> */}
     </ChakraProvider>
   );
 }

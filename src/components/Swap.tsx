@@ -37,7 +37,7 @@ export default function Trade() {
         <Text
           color="black"
           fontWeight="500">
-          Swap
+          Token Exchange
         </Text>
         <SettingsIcon
           fontSize="1.25rem"

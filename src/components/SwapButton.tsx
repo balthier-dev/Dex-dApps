@@ -9,11 +9,11 @@ export default function SwapButton() {
     <Box mt="0.5rem">
       <Button
         color="white"
-        bg="rgb(255,140,0)"
+        bg="#bd68fd"
         width="100%"
         p="1.62rem"
         borderRadius="1.25rem"
-        _hover={{ bg: "rgb(255,165,0)" }}
+        _hover={{ bg: "#db14fb" }}
       >
         Swap
       </Button>
@@ -22,11 +22,11 @@ export default function SwapButton() {
         <Box mt="0.5rem">
           <Button
             color="white"
-            bg="rgb(255,140,0)"
+            bg="#bd68fd"
             width="100%"
             p="1.62rem"
             borderRadius="1.25rem"
-            _hover={{ bg: "rgb(255,165,0)" }}
+            _hover={{ bg: "#db14fb" }}
           >
             Please select token
           </Button>
@@ -36,11 +36,11 @@ export default function SwapButton() {
     <Box mt="0.5rem">
       <Button
         color="white"
-        bg="rgb(255,140,0)"
+        bg="#bd68fd"
         width="100%"
         p="1.62rem"
         borderRadius="1.25rem"
-        _hover={{ bg: "rgb(255,165,0)" }}
+        _hover={{ bg: "#db14fb" }}
       >
         Connect Wallet
       </Button>

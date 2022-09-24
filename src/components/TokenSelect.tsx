@@ -22,7 +22,7 @@ export default function TokenSelect({ openTokenModal, value, image, button }: Pr
         console.log(button)
         window.__button = button;
         openTokenModal();}}
-      _hover={{ bg: "rgb(30,144,255)" }}
+        _hover={{ bg: "#db14fb" }}
       rightIcon={<ChevronDownIcon fontSize="1.37rem" cursor="pointer" />}>
       <Image boxSize="1.5rem"
              src={image}
@@ -33,7 +33,7 @@ export default function TokenSelect({ openTokenModal, value, image, button }: Pr
     </Button>
   ) : (
     <Button
-      bg="rgb(255,140,0)"
+    bg="#bd68fd"
       color="white"
       p="0rem 1rem"
       borderRadius="1.12rem"
@@ -41,7 +41,7 @@ export default function TokenSelect({ openTokenModal, value, image, button }: Pr
         console.log(button)
         window.__button = button;
         openTokenModal();}}
-      _hover={{ bg: "rgb(30,144,255)" }}
+        _hover={{ bg: "#db14fb" }}
       rightIcon={<ChevronDownIcon fontSize="1.37rem" cursor="pointer" />}>Select a token</Button>
   );
 }
